@@ -3,9 +3,11 @@
   "timeout": 10000,
   "output": "./output",
   "helpers": {
-    "WebDriverIO": {
+    "Nightmare": {
       "url": "http://localhost",
-      "browser": "chrome"
+      "show": true,
+      "restart": false,
+      "waitForAction": 1000
     }
   },
   "include": {},
