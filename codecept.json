@@ -10,7 +10,9 @@
       "waitForAction": 1000
     }
   },
-  "include": {},
+  "include": {
+    "I": "./steps_file.js"
+  },
   "bootstrap": false,
   "mocha": {},
   "name": "timecard"
